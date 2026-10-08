@@ -1,0 +1,2072 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Soujanya M.N - Software Engineer specializing in AI/ML, Embedded Systems, and Software Development.">
+  <meta name="keywords" content="Software Engineer, Portfolio, AI, Machine Learning, Python, Java, C, IoT">
+  <meta name="author" content="Soujanya M.N">
+  <title>Soujanya M.N | Software Engineer Portfolio</title>
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- VERTICAL NAVIGATION BAR (LEFT SIDE DOCK)                          -->
+  <!-- Low-Poly 3D Aesthetic, Accessible, Responsive Sidebar             -->
+  <!-- ================================================================= -->
+  <aside id="vertical-sidebar" class="vertical-sidebar" aria-label="Main Vertical Navigation">
+    <div class="sidebar-inner">
+      <!-- Sidebar Brand Header with 3D Low-Poly Gem Icon -->
+      <div class="sidebar-header">
+        <a href="#hero" class="sidebar-brand" aria-label="Soujanya M.N - Home">
+          <div class="sidebar-poly-gem" aria-hidden="true">
+            <span class="poly-gem-facet facet-a"></span>
+            <span class="poly-gem-facet facet-b"></span>
+            <span class="poly-gem-facet facet-c"></span>
+          </div>
+          <div class="sidebar-brand-text">
+            <span class="brand-name">Soujanya<span class="accent-dot">.</span></span>
+            <span class="brand-role">Software Engineer</span>
+          </div>
+        </a>
+
+        <!-- Mobile Drawer Close Button -->
+        <button id="sidebar-close-btn" class="sidebar-close-btn" type="button" aria-label="Close vertical navigation" title="Close Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- Vertical Navigation Link List (8 Specified Sections) -->
+      <nav class="sidebar-nav" aria-label="Vertical Section Links">
+        <ul class="sidebar-links">
+          <!-- 1. Home -->
+          <li class="sidebar-item">
+            <a href="#hero" class="sidebar-link active" data-section="hero" aria-label="Navigate to Home section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <span class="sidebar-label">Home</span>
+            </a>
+          </li>
+
+          <!-- 2. About Me -->
+          <li class="sidebar-item">
+            <a href="#about" class="sidebar-link" data-section="about" aria-label="Navigate to About Me section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <span class="sidebar-label">About Me</span>
+            </a>
+          </li>
+
+          <!-- 3. Skills -->
+          <li class="sidebar-item">
+            <a href="#skills" class="sidebar-link" data-section="skills" aria-label="Navigate to Skills section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span class="sidebar-label">Skills</span>
+            </a>
+          </li>
+
+          <!-- 4. Timeline -->
+          <li class="sidebar-item">
+            <a href="#timeline" class="sidebar-link" data-section="timeline" aria-label="Navigate to Timeline section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span class="sidebar-label">Timeline</span>
+            </a>
+          </li>
+
+          <!-- 5. Projects -->
+          <li class="sidebar-item">
+            <a href="#projects" class="sidebar-link" data-section="projects" aria-label="Navigate to Projects section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span class="sidebar-label">Projects</span>
+            </a>
+          </li>
+
+          <!-- 7. Chat -->
+          <li class="sidebar-item">
+            <a href="#chat" class="sidebar-link" data-section="chat" aria-label="Navigate to Interactive Chat section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path><path d="M8 12h.01"></path><path d="M12 12h.01"></path><path d="M16 12h.01"></path></svg>
+              <span class="sidebar-label">Chat</span>
+            </a>
+          </li>
+
+          <!-- 8. Contact -->
+          <li class="sidebar-item">
+            <a href="#contact" class="sidebar-link" data-section="contact" aria-label="Navigate to Contact section">
+              <span class="link-facet-marker" aria-hidden="true"></span>
+              <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <span class="sidebar-label">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Sidebar Bottom Info & Status -->
+      <div class="sidebar-footer">
+        <div class="sidebar-status-card">
+          <span class="sidebar-status-dot"></span>
+          <div class="sidebar-status-details">
+            <span class="status-title">Status</span>
+            <span class="status-sub">Open for Roles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Mobile Drawer Backdrop Overlay -->
+  <div id="sidebar-backdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
+  <!-- ================================================================= -->
+  <!-- TOP APP BAR & HEADER ACTIONS -->
+  <!-- ================================================================= -->
+  <header id="header" class="site-header">
+    <div class="container header-container">
+      <div class="header-left-group">
+        <!-- Mobile Vertical Navbar Trigger Button -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" type="button" aria-label="Toggle vertical navigation sidebar" aria-expanded="false" aria-controls="vertical-sidebar">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <!-- Brand Monogram for Small Screens -->
+        <a href="#hero" class="brand-logo" aria-label="Soujanya M.N - Home">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-text">Soujanya<span class="accent-dot">.</span>dev</span>
+        </a>
+      </div>
+
+      <!-- Top Header Right Action Group -->
+      <div class="header-actions">
+        <!-- Direct Quick Link to Chat / Contact -->
+        <a href="#chat" class="btn btn-outline header-quick-btn">
+          <span>Quick Chat</span>
+        </a>
+
+        <!-- ============================================================= -->
+        <!-- PLACEHOLDER: NIGHT MODE / THEME TOGGLE                        -->
+        <!-- Enables switching between Dark (Night) and Light themes       -->
+        <!-- ============================================================= -->
+        <button 
+          id="theme-toggle" 
+          class="theme-toggle-btn" 
+          type="button" 
+          aria-label="Switch between light and night mode"
+          aria-pressed="false"
+          title="Toggle Night / Light Mode"
+        >
+          <!-- Sun icon (shown in night mode) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon icon (shown in light mode) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span class="sr-only">Toggle theme</span>
+        </button>
+        <!-- END PLACEHOLDER: NIGHT MODE TOGGLE -->
+      </div>
+    </div>
+  </header>
+
+  <!-- ================================================================= -->
+  <!-- MAIN CONTENT CONTAINER                                            -->
+  <!-- ================================================================= -->
+  <main id="main-content">
+
+    <!-- =============================================================== -->
+    <!-- 1. HERO SECTION (LOW-POLY 3D DESIGN & BACKGROUND IMAGE)         -->
+    <!-- Features: CSS 3D Polyhedral Crystals, Low-Poly Faceted Mesh,     -->
+    <!-- User-provided Background Image, Welcome Title & Tagline         -->
+    <!-- =============================================================== -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <!-- Low-Poly 3D Geometric Mesh Layer (Faceted Polygonal Mesh) -->
+      <div class="low-poly-backdrop" aria-hidden="true">
+        <svg class="low-poly-svg-mesh" viewBox="0 0 1440 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Low-poly faceted triangles with varying light and gradient angles -->
+          <polygon class="poly-facet facet-1" points="0,0 260,0 130,200" />
+          <polygon class="poly-facet facet-2" points="260,0 580,0 420,180" />
+          <polygon class="poly-facet facet-3" points="580,0 920,0 740,220" />
+          <polygon class="poly-facet facet-4" points="920,0 1200,0 1060,180" />
+          <polygon class="poly-facet facet-5" points="1200,0 1440,0 1340,240" />
+          <polygon class="poly-facet facet-6" points="0,0 130,200 0,420" />
+          <polygon class="poly-facet facet-7" points="130,200 420,180 290,430" />
+          <polygon class="poly-facet facet-8" points="420,180 740,220 560,460" />
+          <polygon class="poly-facet facet-9" points="740,220 1060,180 890,470" />
+          <polygon class="poly-facet facet-10" points="1060,180 1340,240 1220,440" />
+          <polygon class="poly-facet facet-11" points="1340,240 1440,0 1440,480" />
+          <polygon class="poly-facet facet-12" points="0,420 290,430 150,680" />
+          <polygon class="poly-facet facet-13" points="290,430 560,460 410,710" />
+          <polygon class="poly-facet facet-14" points="560,460 890,470 720,730" />
+          <polygon class="poly-facet facet-15" points="890,470 1220,440 1040,710" />
+          <polygon class="poly-facet facet-16" points="1220,440 1440,480 1360,740" />
+          <polygon class="poly-facet facet-17" points="0,420 150,680 0,900" />
+          <polygon class="poly-facet facet-18" points="150,680 410,710 240,900" />
+          <polygon class="poly-facet facet-19" points="410,710 720,730 570,900" />
+          <polygon class="poly-facet facet-20" points="720,730 1040,710 880,900" />
+          <polygon class="poly-facet facet-21" points="1040,710 1360,740 1210,900" />
+          <polygon class="poly-facet facet-22" points="1360,740 1440,480 1440,900" />
+          <polygon class="poly-facet facet-23" points="0,900 240,900 150,680" />
+          <polygon class="poly-facet facet-24" points="240,900 570,900 410,710" />
+          <polygon class="poly-facet facet-25" points="570,900 880,900 720,730" />
+          <polygon class="poly-facet facet-26" points="880,900 1210,900 1040,710" />
+          <polygon class="poly-facet facet-27" points="1210,900 1440,900 1360,740" />
+        </svg>
+
+        <!-- Floating 3D Low-Poly Geometric Shards -->
+        <div class="poly-shard shard-1"></div>
+        <div class="poly-shard shard-2"></div>
+        <div class="poly-shard shard-3"></div>
+        <div class="poly-shard shard-4"></div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Hero Left Column: Welcoming Content & CTAs -->
+        <div class="hero-content">
+          <!-- Welcome Pill Badge -->
+          <div class="badge-pill">
+            <span class="status-dot"></span>
+            <span>Available for Engineering Roles</span>
+          </div>
+
+          <!-- Welcome Salutation -->
+          <div class="hero-welcome-tag">
+            <span class="welcome-hand">👋</span>
+            <span class="welcome-label">Welcome to my space</span>
+          </div>
+
+          <!-- Welcome Title Placeholder -->
+          <h1 id="hero-title" class="hero-title">
+            Hi, I'm <span class="highlight-gradient">Soujanya M.N</span>
+          </h1>
+
+          <!-- Brief Tagline Placeholder -->
+          <p class="hero-tagline">
+            Software Engineer & AI/ML Specialist Crafting Intelligent Systems, Robust Data Architectures, and Automated Embedded Innovations.
+          </p>
+
+          <!-- Bio Description Summary -->
+          <p class="hero-description">
+            Bridging hardware intelligence with scalable modern software. Experienced in C, Python, Java, machine learning models, and micro-controller automation.
+          </p>
+
+          <!-- Call-to-Actions (CTAs) -->
+          <div class="hero-cta-group">
+            <!-- 1. View Projects Button -->
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+
+            <!-- 2. View Resume Button (Opens Full-Screen PDF Viewer Modal) -->
+            <button
+              type="button"
+              id="view-resume-btn"
+              class="btn btn-resume-view"
+              aria-haspopup="dialog"
+              aria-controls="resume-modal"
+              aria-label="View Soujanya's Resume in full-screen PDF viewer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+              <span>View Resume</span>
+            </button>
+
+            <!-- 3. Download Resume Button (Direct Download of PDF) -->
+            <a
+              href="Soujanya_MN_Resume_Final.pdf"
+              download="Soujanya_MN_Resume.pdf"
+              class="btn btn-resume-download"
+              aria-label="Download Soujanya's Resume PDF directly"
+              title="Download Resume PDF directly"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Resume</span>
+            </a>
+
+            <!-- 4. Contact Button -->
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <!-- Quick Social & Contact Links -->
+          <div class="hero-social-links">
+            <a href="mailto:mnsoujanya9@gmail.com" class="social-icon-link" aria-label="Email" title="mnsoujanya9@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </a>
+            <a href="https://linkedin.com/in/soujanya-m-n-b0a409441" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn" title="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://github.com/Soujanya-MN" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub" title="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: 3D Low-Poly Element & Angular Beveled Profile -->
+        <div class="hero-visual-wrapper">
+          <!-- 3D Low-Poly Interactive Rotating Crystal (Pure CSS 3D Transforms) -->
+          <div class="poly-3d-scene" aria-hidden="true" title="Low-Poly 3D Geometric Crystal">
+            <div class="poly-3d-crystal">
+              <!-- Top Pyramidal Facets -->
+              <div class="poly-3d-face face-top-front"></div>
+              <div class="poly-3d-face face-top-right"></div>
+              <div class="poly-3d-face face-top-back"></div>
+              <div class="poly-3d-face face-top-left"></div>
+              <!-- Bottom Pyramidal Facets -->
+              <div class="poly-3d-face face-bottom-front"></div>
+              <div class="poly-3d-face face-bottom-right"></div>
+              <div class="poly-3d-face face-bottom-back"></div>
+              <div class="poly-3d-face face-bottom-left"></div>
+            </div>
+          </div>
+
+          <!-- Low-Poly Beveled Card with User-Provided Headshot -->
+          <div class="low-poly-frame-container">
+            <div class="low-poly-frame">
+              <!-- Faceted Low-Poly Corner Accents -->
+              <span class="poly-corner poly-tl"></span>
+              <span class="poly-corner poly-tr"></span>
+              <span class="poly-corner poly-bl"></span>
+              <span class="poly-corner poly-br"></span>
+
+              <img 
+                src="WhatsApp Image 2026-10-07 at 10.02.16 AM.jpeg" 
+                alt="Portrait of Soujanya M.N - Software Engineer" 
+                class="hero-portrait"
+                loading="eager"
+              >
+
+              <div class="low-poly-badge">
+                <span class="badge-icon">⚡</span>
+                <span class="badge-text">AI & Machine Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HERO SECTION PLACEHOLDER -->
+
+
+    <!-- =============================================================== -->
+    <!-- 2. ABOUT ME SECTION                                             -->
+    <!-- Clean, Minimalistic Design with Low-Poly 3D Profile Avatar,     -->
+    <!-- Short Bio, Career Highlights & Personal Interests               -->
+    <!-- =============================================================== -->
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag">Who I Am</span>
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <p class="section-subtitle">A brief introduction to my background, engineering journey, career highlights, and personal passions</p>
+        </div>
+
+        <div class="about-container-wrapper">
+          <!-- Left Column: Low-Poly 3D Profile Avatar & Quick Info Card -->
+          <div class="about-avatar-column">
+            <div class="about-poly-avatar-card">
+              <!-- Geometric Low-Poly Decorative Corner Facets -->
+              <span class="avatar-poly-corner c-tl" aria-hidden="true"></span>
+              <span class="avatar-poly-corner c-tr" aria-hidden="true"></span>
+              <span class="avatar-poly-corner c-bl" aria-hidden="true"></span>
+              <span class="avatar-poly-corner c-br" aria-hidden="true"></span>
+
+              <!-- 3D Low-Poly Avatar Image Frame -->
+              <div class="about-avatar-frame">
+                <img 
+                  src="WhatsApp Image 2026-10-07 at 10.02.16 AM.jpeg" 
+                  alt="Portrait of Soujanya M N - Software Engineer & AI/ML Specialist" 
+                  class="about-avatar-photo"
+                  loading="lazy"
+                >
+                <div class="avatar-floating-poly-badge">
+                  <span class="badge-gem">💎</span>
+                  <span class="badge-label">AI & ML Engineer</span>
+                </div>
+              </div>
+
+              <!-- Quick Identity Metadata -->
+              <div class="avatar-meta-card">
+                <h3 class="meta-full-name">Soujanya M N</h3>
+                <p class="meta-subtitle">Software Engineer</p>
+                <div class="meta-tag-list">
+                  <span class="meta-pill"><span class="status-live-dot"></span> B.E. in AI & ML</span>
+                  <span class="meta-pill">CGPA: 8.46</span>
+                  <span class="meta-pill">Karnataka, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Short Bio, Career Highlights & Personal Interests -->
+          <div class="about-content-column">
+            <!-- Short Bio Article -->
+            <article class="about-bio-article">
+              <h3 class="bio-heading">
+                Engineering Intelligent Software & Embedded Innovations
+              </h3>
+              <p class="bio-paragraph-lead">
+                My name is <strong>Soujanya M N</strong>. I am currently pursuing my <strong>Bachelor of Engineering in Artificial Intelligence and Machine Learning</strong> at <strong>Adichunchanagiri Institute of Technology, Chikkamagaluru</strong>.
+              </p>
+              <p class="bio-paragraph">
+                As an aspiring software engineer, I am passionate about bridging abstract algorithmic intelligence with practical, reliable software and hardware systems. My technical interests revolve around writing clean, efficient code, exploring machine learning models, and engineering automated embedded solutions that interact seamlessly with the physical world.
+              </p>
+            </article>
+
+            <!-- Career Highlights & Personal Interests Grid -->
+            <div class="about-features-grid">
+              <!-- Career Highlights Block -->
+              <div class="feature-card highlight-card">
+                <div class="feature-card-header">
+                  <span class="feature-icon">🚀</span>
+                  <h4 class="feature-title">Career & Academic Highlights</h4>
+                </div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>Academic Record:</strong> Maintaining a strong <strong>8.46 CGPA</strong> across rigorous coursework in Artificial Intelligence, Machine Learning, and Computer Science.
+                  </li>
+                  <li>
+                    <strong>Embedded & IoT Innovations:</strong> Engineered real-world automated systems including a temperature-regulated <em>Cold Storage Unit</em> and an autonomous <em>IoT Smart Irrigation System</em> using Arduino & C/C++.
+                  </li>
+                  <li>
+                    <strong>Industry Certifications:</strong> Completed verified training programs including the <em>Student Development Program on Python Programming</em> and <em>Introduction to Unix</em> from Infosys Springboard.
+                  </li>
+                  <li>
+                    <strong>Core Technical Proficiencies:</strong> Proficient in C, Python, Java, Data Structures, Algorithms, and Object-Oriented software design principles.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Personal Interests & Engineering Mindset Block -->
+              <div class="feature-card interests-card">
+                <div class="feature-card-header">
+                  <span class="feature-icon">✨</span>
+                  <h4 class="feature-title">Personal Interests & Mindset</h4>
+                </div>
+                <ul class="feature-bullets">
+                  <li>
+                    <strong>AI & Predictive Modeling:</strong> Passionate about analyzing complex datasets, identifying correlations, and experimenting with predictive machine learning algorithms.
+                  </li>
+                  <li>
+                    <strong>Hardware-Software Convergence:</strong> Enthusiastic about physical computing, sensors, relays, and automating mechanical environments through intelligent code.
+                  </li>
+                  <li>
+                    <strong>Algorithmic Problem Solving:</strong> Motivated by algorithmic optimization, computational logic, and clean software architecture.
+                  </li>
+                  <li>
+                    <strong>Continuous Learning & Teamwork:</strong> Dedicated to open communication, collaborative peer development, and rapidly mastering modern industry technologies.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT ME SECTION -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- 2.5 VIDEO INTRODUCTION & PORTFOLIO HIGHLIGHT                   -->
+    <!-- Dedicated showcase for personal video introduction.            -->
+    <!-- Responsive portrait 9:16 aspect ratio with low-poly 3D frame,   -->
+    <!-- geometric corner facets, floating background shards, & caption. -->
+    <!-- =============================================================== -->
+    <section id="video-intro" class="section video-intro-section" aria-labelledby="video-intro-title">
+      <!-- Decorative low-poly background shards -->
+      <div class="video-bg-poly" aria-hidden="true">
+        <span class="video-poly-shard vp-1"></span>
+        <span class="video-poly-shard vp-2"></span>
+        <span class="video-poly-shard vp-3"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Spotlight</span>
+          <h2 id="video-intro-title" class="section-title">Video Introduction</h2>
+          <p class="section-subtitle">Meet Soujanya in person — an introduction highlighting academic focus in AI &amp; ML, core technical proficiencies, and career goals</p>
+        </div>
+
+        <div class="video-showcase-layout">
+          <!-- Left Column / Primary: Responsive Low-Poly 3D Video Player Frame -->
+          <div class="video-player-wrapper">
+            <div class="video-poly-frame">
+              <!-- Geometric Low-Poly 3D Corner Facets -->
+              <span class="video-facet-corner facet-tl" aria-hidden="true"></span>
+              <span class="video-facet-corner facet-tr" aria-hidden="true"></span>
+              <span class="video-facet-corner facet-bl" aria-hidden="true"></span>
+              <span class="video-facet-corner facet-br" aria-hidden="true"></span>
+
+              <!-- Live Indicator / Topbar -->
+              <div class="video-player-topbar">
+                <div class="video-status-indicator">
+                  <span class="status-pulse-dot" aria-hidden="true"></span>
+                  <span class="video-status-text">Video Introduction</span>
+                </div>
+                <span class="video-quality-tag">HD 1080p</span>
+              </div>
+
+              <!-- Responsive Video Container (Aspect Ratio 9:16) -->
+              <div class="video-aspect-container">
+                <video
+                  id="portfolio-intro-video"
+                  class="intro-video-element"
+                  controls
+                  playsinline
+                  preload="metadata"
+                  title="Video introduction by Soujanya M N"
+                  aria-label="Video introduction by Soujanya M N"
+                >
+                  <source src="WhatsApp Video 2026-10-07 at 10.02.16 AM.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video playback.
+                </video>
+              </div>
+
+              <!-- Player Bottom Info Bar -->
+              <div class="video-player-bottombar">
+                <div class="video-speaker-info">
+                  <span class="video-speaker-name">Soujanya M.N</span>
+                  <span class="video-speaker-dept">Dept. of AI &amp; ML · AIT Chikkamagaluru</span>
+                </div>
+                <span class="video-badge-pill">Self Introduction</span>
+              </div>
+            </div><!-- /.video-poly-frame -->
+
+            <!-- Short Caption Explaining the Video's Content -->
+            <figcaption class="video-caption-card">
+              <div class="caption-icon-badge" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect width="15" height="14" x="1" y="5" rx="2" ry="2"/></svg>
+              </div>
+              <div class="caption-content">
+                <h4 class="caption-heading">Video Overview &amp; Key Highlights</h4>
+                <p class="caption-description">
+                  In this personal video introduction, <strong>Soujanya M N</strong> introduces herself as an Artificial Intelligence and Machine Learning undergraduate at <strong>Adichunchanagiri Institute of Technology, Chikkamagaluru</strong>. She highlights her technical foundation in <strong>C, Python, and Data Structures</strong>, emphasizes her problem-solving discipline, communication, and teamwork skills, and expresses her enthusiasm for gaining practical industry experience and contributing positively to engineering teams.
+                </p>
+                <div class="caption-meta-row">
+                  <span class="caption-meta-pill">⏱ Duration: 0:36</span>
+                  <span class="caption-meta-pill">🗣 Language: English</span>
+                  <span class="caption-meta-pill">🎓 AIT Chikkamagaluru</span>
+                </div>
+              </div>
+            </figcaption>
+          </div><!-- /.video-player-wrapper -->
+
+          <!-- Right Column: Context, Transcript Key Points & Navigation CTA -->
+          <div class="video-context-column">
+            <!-- Key Highlights / Talking Points -->
+            <div class="vcontext-card vcontext-highlights">
+              <div class="vcontext-header">
+                <span class="vcontext-icon" aria-hidden="true">💡</span>
+                <h3 class="vcontext-title">Key Talking Points</h3>
+              </div>
+              <ul class="vcontext-list">
+                <li>
+                  <span class="vcontext-bullet-icon" aria-hidden="true">🎓</span>
+                  <div class="vcontext-text">
+                    <strong>Academic Pursuit:</strong>
+                    <span>Pursuing Bachelor of Engineering in Artificial Intelligence &amp; Machine Learning at Adichunchanagiri Institute of Technology (CGPA: 8.46).</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="vcontext-bullet-icon" aria-hidden="true">💻</span>
+                  <div class="vcontext-text">
+                    <strong>Core Fundamentals:</strong>
+                    <span>Proficient in C, Python, Data Structures &amp; Algorithms, and developing IoT embedded systems.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="vcontext-bullet-icon" aria-hidden="true">🤝</span>
+                  <div class="vcontext-text">
+                    <strong>Communication &amp; Teamwork:</strong>
+                    <span>Strong interpersonal communication, collaborative project leadership, and continuous learning adaptability.</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="vcontext-bullet-icon" aria-hidden="true">🚀</span>
+                  <div class="vcontext-text">
+                    <strong>Career Aspirations:</strong>
+                    <span>Seeking practical software engineering and machine learning opportunities to deliver meaningful value to innovative organizations.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Fast Navigation / Explore Card -->
+            <div class="vcontext-card vcontext-actions">
+              <div class="vcontext-header">
+                <span class="vcontext-icon" aria-hidden="true">⚡</span>
+                <h3 class="vcontext-title">Explore Portfolio</h3>
+              </div>
+              <p class="vcontext-action-text">
+                See Soujanya's technical competencies in action through interactive progress bars, an academic milestone timeline, and real embedded IoT projects.
+              </p>
+              <div class="vcontext-btn-group">
+                <a href="#skills" class="btn btn-primary vcontext-btn">
+                  <span>Explore Skills</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+                <a href="#projects" class="btn btn-outline vcontext-btn">
+                  <span>Featured Projects</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost vcontext-btn">
+                  <span>Send Message</span>
+                </a>
+              </div>
+            </div>
+          </div><!-- /.video-context-column -->
+        </div><!-- /.video-showcase-layout -->
+      </div><!-- /.container -->
+    </section>
+    <!-- END VIDEO INTRODUCTION SECTION -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- 3. SKILLS SECTION                                               -->
+    <!-- Animated progress bars, categorized skill cards, icons,        -->
+    <!-- low-poly decorative elements, hover effects & soft-skills area  -->
+    <!-- =============================================================== -->
+    <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+      <!-- Floating Low-Poly Decorative Background Shards -->
+      <div class="skills-bg-poly" aria-hidden="true">
+        <span class="skills-poly-shard sp-1"></span>
+        <span class="skills-poly-shard sp-2"></span>
+        <span class="skills-poly-shard sp-3"></span>
+        <span class="skills-poly-shard sp-4"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 id="skills-title" class="section-title">Skills &amp; Proficiencies</h2>
+          <p class="section-subtitle">Technologies, tools, and domains I work with — built through coursework, projects, and curiosity</p>
+        </div>
+
+        <!-- ======== PROGRESS BAR SKILL CARDS ======== -->
+        <!-- Each card groups related skills; progress bars show proficiency level.
+             data-progress drives the JS IntersectionObserver animation. -->
+        <div class="skills-progress-grid">
+
+          <!-- ---- Card 1: Programming Languages ---- -->
+          <article class="skill-progress-card" aria-label="Programming Languages">
+            <div class="skill-card-header">
+              <!-- Code brackets icon represents programming languages -->
+              <div class="skill-card-icon skill-icon-lang" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-card-title">Programming Languages</h3>
+            </div>
+            <div class="skill-bars-list">
+
+              <!-- Python: 85% Advanced — primary language, used in AI/ML projects -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-python" aria-hidden="true"></span>Python
+                  </span>
+                  <span class="skill-bar-percent">85%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 85%">
+                  <div class="skill-bar-fill" style="--target-width: 85%"></div>
+                </div>
+                <span class="skill-bar-badge">Advanced</span>
+              </div>
+
+              <!-- Java: 65% Intermediate — learned through academic coursework -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-java" aria-hidden="true"></span>Java
+                  </span>
+                  <span class="skill-bar-percent">65%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency 65%">
+                  <div class="skill-bar-fill" style="--target-width: 65%"></div>
+                </div>
+                <span class="skill-bar-badge">Intermediate</span>
+              </div>
+
+              <!-- C/C++: 75% Proficient — used in Arduino embedded firmware -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-c" aria-hidden="true"></span>C / C++
+                  </span>
+                  <span class="skill-bar-percent">75%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="C/C++ proficiency 75%">
+                  <div class="skill-bar-fill" style="--target-width: 75%"></div>
+                </div>
+                <span class="skill-bar-badge">Proficient</span>
+              </div>
+
+              <!-- SQL: 45% Familiar — basic database query skills -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-sql" aria-hidden="true"></span>SQL
+                  </span>
+                  <span class="skill-bar-percent">45%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="SQL proficiency 45%">
+                  <div class="skill-bar-fill" style="--target-width: 45%"></div>
+                </div>
+                <span class="skill-bar-badge">Familiar</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---- Card 2: Core CS Fundamentals ---- -->
+          <article class="skill-progress-card" aria-label="Core CS Fundamentals">
+            <div class="skill-card-header">
+              <!-- Layers icon represents layered CS knowledge stack -->
+              <div class="skill-card-icon skill-icon-cs" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+              <h3 class="skill-card-title">Core CS Fundamentals</h3>
+            </div>
+            <div class="skill-bars-list">
+
+              <!-- Data Structures: 82% — core academic strength -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-ds" aria-hidden="true"></span>Data Structures
+                  </span>
+                  <span class="skill-bar-percent">82%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 82%"></div>
+                </div>
+                <span class="skill-bar-badge">Strong</span>
+              </div>
+
+              <!-- Algorithms: 78% — applied in problem-solving practice -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-algo" aria-hidden="true"></span>Algorithms &amp; Optimization
+                  </span>
+                  <span class="skill-bar-percent">78%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 78%"></div>
+                </div>
+                <span class="skill-bar-badge">Strong</span>
+              </div>
+
+              <!-- OOP: 72% — practised in Java and Python projects -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-oop" aria-hidden="true"></span>OOP Concepts
+                  </span>
+                  <span class="skill-bar-percent">72%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 72%"></div>
+                </div>
+                <span class="skill-bar-badge">Proficient</span>
+              </div>
+
+              <!-- SE Principles: 68% — design patterns and software lifecycle -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-se" aria-hidden="true"></span>SE Principles
+                  </span>
+                  <span class="skill-bar-percent">68%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 68%"></div>
+                </div>
+                <span class="skill-bar-badge">Proficient</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---- Card 3: AI, ML & IoT ---- -->
+          <!-- Growing domain — Soujanya's core academic specialisation -->
+          <article class="skill-progress-card" aria-label="AI ML and IoT">
+            <div class="skill-card-header">
+              <!-- Radial sun/AI icon for intelligence/neural themes -->
+              <div class="skill-card-icon skill-icon-ai" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </div>
+              <h3 class="skill-card-title">AI, ML &amp; IoT</h3>
+            </div>
+            <div class="skill-bars-list">
+
+              <!-- ML Concepts: 60% — in-progress through B.E. AI/ML programme -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-ml" aria-hidden="true"></span>Machine Learning
+                  </span>
+                  <span class="skill-bar-percent">60%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 60%"></div>
+                </div>
+                <span class="skill-bar-badge">Intermediate</span>
+              </div>
+
+              <!-- Arduino: 70% — hands-on project work with Uno and related boards -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-arduino" aria-hidden="true"></span>Arduino &amp; Microcontrollers
+                  </span>
+                  <span class="skill-bar-percent">70%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 70%"></div>
+                </div>
+                <span class="skill-bar-badge">Hands-on</span>
+              </div>
+
+              <!-- Sensor Integration: 65% — applied in IoT irrigation & cold-storage projects -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-iot" aria-hidden="true"></span>Sensor Integration
+                  </span>
+                  <span class="skill-bar-percent">65%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 65%"></div>
+                </div>
+                <span class="skill-bar-badge">Applied</span>
+              </div>
+
+              <!-- Data Analysis: 58% — statistical modelling and EDA in Python -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-label-row">
+                  <span class="skill-bar-name">
+                    <span class="skill-dot skill-dot-da" aria-hidden="true"></span>Data Analysis &amp; Modeling
+                  </span>
+                  <span class="skill-bar-percent">58%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-bar-fill" style="--target-width: 58%"></div>
+                </div>
+                <span class="skill-bar-badge">Intermediate</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.skills-progress-grid -->
+
+        <!-- ======== TOOL CHIPS + SOFT SKILLS ======== -->
+        <div class="skills-extras-wrapper">
+          <!-- Quick-recognition icon-chip tags for tools/tech -->
+          <div class="skill-tags-panel">
+            <h3 class="skill-tags-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14.5 12.5-8 8a2.119 2.119 0 0 1-3-3l8-8"/><path d="m16 16 6-6"/><path d="m8 8 6-6"/><path d="m9 7 8 8"/><path d="m21 11-8-8"/></svg>
+              Tools &amp; Technologies
+            </h3>
+            <div class="skill-tag-list" role="list">
+              <!-- Each chip = one tool / technology Soujanya is proficient with -->
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🐍</span>Python</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">☕</span>Java</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">⚡</span>C / C++</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🤖</span>Arduino IDE</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🌐</span>IoT Systems</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🧠</span>Machine Learning</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">📊</span>Data Structures</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🔗</span>Algorithms</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🔧</span>Embedded Systems</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🗃️</span>SQL</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">🔬</span>AI &amp; ML</span>
+              <span class="skill-tag-chip" role="listitem"><span class="chip-icon" aria-hidden="true">💻</span>OOP</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills — Soujanya's personal strengths as a quick learner & problem solver -->
+          <div class="soft-skills-panel">
+            <h3 class="skill-tags-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Soft Skills &amp; Mindset
+            </h3>
+            <div class="soft-skills-grid" role="list">
+              <!-- Each card represents a personal characteristic -->
+              <div class="soft-skill-card" title="Quick Learner" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🚀</div>
+                <span class="soft-skill-label">Quick Learner</span>
+              </div>
+              <div class="soft-skill-card" title="Problem Solver" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🧩</div>
+                <span class="soft-skill-label">Problem Solver</span>
+              </div>
+              <div class="soft-skill-card" title="Curious Mind" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🔭</div>
+                <span class="soft-skill-label">Curious Mind</span>
+              </div>
+              <div class="soft-skill-card" title="Hands-on Builder" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🛠️</div>
+                <span class="soft-skill-label">Hands-on Builder</span>
+              </div>
+              <div class="soft-skill-card" title="Team Player" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🤝</div>
+                <span class="soft-skill-label">Team Player</span>
+              </div>
+              <div class="soft-skill-card" title="Adaptable" role="listitem">
+                <div class="soft-skill-icon" aria-hidden="true">🌊</div>
+                <span class="soft-skill-label">Adaptable</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.skills-extras-wrapper -->
+
+      </div><!-- /.container -->
+    </section>
+    <!-- END SKILLS SECTION -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- 4. TIMELINE SECTION                                             -->
+    <!-- Alternating card timeline: Education milestones & key events    -->
+    <!-- Smooth hover transitions, achievement badges, poly accents      -->
+    <!-- =============================================================== -->
+    <section id="timeline" class="section timeline-section" aria-labelledby="timeline-title">
+      <!-- Decorative poly shards -->
+      <div class="timeline-bg-poly" aria-hidden="true">
+        <span class="tl-poly-shard tl-sp-1"></span>
+        <span class="tl-poly-shard tl-sp-2"></span>
+        <span class="tl-poly-shard tl-sp-3"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Journey</span>
+          <h2 id="timeline-title" class="section-title">Timeline &amp; Education</h2>
+          <p class="section-subtitle">Chronological record of academic milestones, certifications, and career steps</p>
+        </div>
+
+        <!-- Central vertical spine + alternating event cards -->
+        <div class="tl-track" role="list">
+
+          <!-- EVENT 1: 10th Standard -->
+          <article class="tl-event tl-left" role="listitem" aria-label="10th Standard milestone">
+            <div class="tl-dot-wrap" aria-hidden="true">
+              <span class="tl-dot tl-dot-education"></span>
+              <span class="tl-dot-ring"></span>
+            </div>
+            <div class="tl-card">
+              <span class="tl-card-corner" aria-hidden="true"></span>
+              <div class="tl-year-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                2022 – 2023
+              </div>
+              <span class="tl-type-chip tl-chip-edu">&#127891; Secondary Education</span>
+              <h3 class="tl-card-heading">10th Standard (SSLC)</h3>
+              <p class="tl-card-institution">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                KRCRS School, Sokke, Karnataka &mdash; State Board
+              </p>
+              <div class="tl-achievement">
+                <span class="tl-achievement-icon" aria-hidden="true">&#127942;</span>
+                <div class="tl-achievement-content">
+                  <span class="tl-achievement-label">Academic Score</span>
+                  <div class="tl-score-bar-wrap">
+                    <span class="tl-score-text">97.6%</span>
+                    <div class="tl-score-bar" role="progressbar" aria-valuenow="97.6" aria-valuemin="0" aria-valuemax="100" aria-label="97.6 percent score">
+                      <div class="tl-score-fill" style="--tl-score-width: 97.6%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="tl-card-description">
+                Completed SSLC under the Karnataka State Board with an outstanding score of <strong>97.6%</strong>, establishing a strong academic foundation in Science and Mathematics.
+              </p>
+              <div class="tl-tag-row">
+                <span class="tl-tag">Karnataka State Board</span>
+                <span class="tl-tag">Top Scorer</span>
+                <span class="tl-tag">Science &amp; Maths</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- EVENT 2: 12th Standard -->
+          <article class="tl-event tl-right" role="listitem" aria-label="12th Standard milestone">
+            <div class="tl-dot-wrap" aria-hidden="true">
+              <span class="tl-dot tl-dot-education"></span>
+              <span class="tl-dot-ring"></span>
+            </div>
+            <div class="tl-card">
+              <span class="tl-card-corner" aria-hidden="true"></span>
+              <div class="tl-year-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                2024 – 2025
+              </div>
+              <span class="tl-type-chip tl-chip-edu">&#127891; Pre-University (PUC)</span>
+              <h3 class="tl-card-heading">12th Standard (PUC / HSC)</h3>
+              <p class="tl-card-institution">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Kanara E-Vision College, Chalageri, Ranebennur, Haveri
+              </p>
+              <div class="tl-achievement">
+                <span class="tl-achievement-icon" aria-hidden="true">&#127942;</span>
+                <div class="tl-achievement-content">
+                  <span class="tl-achievement-label">Academic Score</span>
+                  <div class="tl-score-bar-wrap">
+                    <span class="tl-score-text">91.5%</span>
+                    <div class="tl-score-bar" role="progressbar" aria-valuenow="91.5" aria-valuemin="0" aria-valuemax="100" aria-label="91.5 percent score">
+                      <div class="tl-score-fill tl-score-fill-alt" style="--tl-score-width: 91.5%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="tl-card-description">
+                Completed pre-university education with <strong>91.5%</strong>, demonstrating consistent academic excellence and securing admission to a top engineering program.
+              </p>
+              <div class="tl-tag-row">
+                <span class="tl-tag">Haveri District</span>
+                <span class="tl-tag">Science Stream</span>
+                <span class="tl-tag">Distinction</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- EVENT 3: B.E. in AI & ML (Current) -->
+          <article class="tl-event tl-left tl-event-current" role="listitem" aria-label="B.E. AI and ML, current">
+            <div class="tl-dot-wrap" aria-hidden="true">
+              <span class="tl-dot tl-dot-current"></span>
+              <span class="tl-dot-ring tl-ring-pulse"></span>
+            </div>
+            <div class="tl-card tl-card-featured">
+              <span class="tl-card-corner" aria-hidden="true"></span>
+              <div class="tl-year-badge tl-badge-live">
+                <span class="tl-live-dot" aria-hidden="true"></span>
+                2025 – Present
+              </div>
+              <span class="tl-type-chip tl-chip-degree">&#127891; Bachelor of Engineering</span>
+              <h3 class="tl-card-heading">B.E. in Artificial Intelligence &amp; Machine Learning</h3>
+              <p class="tl-card-institution">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Adichunchanagiri Institute of Technology, Chikkamagaluru, Karnataka
+              </p>
+              <div class="tl-status-row">
+                <div class="tl-status-chip">
+                  <span class="tl-status-dot-green" aria-hidden="true"></span>
+                  Currently in 3rd Semester
+                </div>
+              </div>
+              <div class="tl-achievement">
+                <span class="tl-achievement-icon" aria-hidden="true">&#11088;</span>
+                <div class="tl-achievement-content">
+                  <span class="tl-achievement-label">CGPA (Running)</span>
+                  <div class="tl-score-bar-wrap">
+                    <span class="tl-score-text">8.46 / 10</span>
+                    <div class="tl-score-bar" role="progressbar" aria-valuenow="84.6" aria-valuemin="0" aria-valuemax="100" aria-label="8.46 CGPA">
+                      <div class="tl-score-fill tl-score-fill-degree" style="--tl-score-width: 84.6%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="tl-card-description">
+                Currently pursuing engineering with a specialisation in AI &amp; ML. Coursework covers neural networks, data structures &amp; algorithms, operating systems, database management, and intelligent system design. Actively building IoT and machine learning projects alongside academics.
+              </p>
+              <div class="tl-subjects-row">
+                <span class="tl-subject-chip">Neural Networks</span>
+                <span class="tl-subject-chip">Data Structures</span>
+                <span class="tl-subject-chip">Machine Learning</span>
+                <span class="tl-subject-chip">OS &amp; DBMS</span>
+                <span class="tl-subject-chip">IoT</span>
+              </div>
+              <div class="tl-tag-row">
+                <span class="tl-tag tl-tag-accent">AI &amp; ML</span>
+                <span class="tl-tag">Chikkamagaluru</span>
+                <span class="tl-tag">4-Year Program</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- EVENT 4: Python Certification -->
+          <article class="tl-event tl-right" role="listitem" aria-label="Python certification">
+            <div class="tl-dot-wrap" aria-hidden="true">
+              <span class="tl-dot tl-dot-cert"></span>
+              <span class="tl-dot-ring"></span>
+            </div>
+            <div class="tl-card">
+              <span class="tl-card-corner" aria-hidden="true"></span>
+              <div class="tl-year-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                March 2026
+              </div>
+              <span class="tl-type-chip tl-chip-cert">&#127885; Certification</span>
+              <h3 class="tl-card-heading">Student Development Program &mdash; Python Programming</h3>
+              <p class="tl-card-institution">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Department of AI &amp; ML, Adichunchanagiri Institute of Technology
+              </p>
+              <div class="tl-achievement">
+                <span class="tl-achievement-icon" aria-hidden="true">&#128220;</span>
+                <div class="tl-achievement-content">
+                  <span class="tl-achievement-label">Credential Awarded</span>
+                  <span class="tl-credential-text">Certified Python Programmer</span>
+                </div>
+              </div>
+              <p class="tl-card-description">
+                Completed an intensive hands-on development program focusing on advanced Python programming patterns, data structures, automation scripts, and real-world application development.
+              </p>
+              <div class="tl-tag-row">
+                <span class="tl-tag">Python</span>
+                <span class="tl-tag">Automation</span>
+                <span class="tl-tag">Data Processing</span>
+                <span class="tl-tag">AIT Certified</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- EVENT 5: Future Goal -->
+          <article class="tl-event tl-left" role="listitem" aria-label="Future career goal">
+            <div class="tl-dot-wrap" aria-hidden="true">
+              <span class="tl-dot tl-dot-future"></span>
+              <span class="tl-dot-ring"></span>
+            </div>
+            <div class="tl-card tl-card-future">
+              <span class="tl-card-corner" aria-hidden="true"></span>
+              <div class="tl-year-badge tl-badge-future">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                2026 Onwards
+              </div>
+              <span class="tl-type-chip tl-chip-future">&#128640; Goal</span>
+              <h3 class="tl-card-heading">Software Engineering &amp; AI Career</h3>
+              <p class="tl-card-institution">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                Career Objective &mdash; Open for Roles
+              </p>
+              <p class="tl-card-description">
+                Upon graduating in 2026, aspiring to join a forward-thinking software or AI/ML engineering team where I can apply my skills in Python, C/C++, Java, and embedded systems to build scalable, meaningful products.
+              </p>
+              <div class="tl-tag-row">
+                <span class="tl-tag">Software Engineer</span>
+                <span class="tl-tag">AI / ML</span>
+                <span class="tl-tag">Open to Opportunities</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.tl-track -->
+      </div><!-- /.container -->
+    </section>
+    <!-- END TIMELINE SECTION -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- 5. PROJECTS SECTION                                             -->
+    <!-- Thumbnail grid with clickable cards that open a detail modal.  -->
+    <!-- Each thumbnail (data-project attribute) is linked to a specific -->
+    <!-- modal via the matching modal ID (project-modal-[id]).          -->
+    <!-- Hover effects: image zoom, overlay reveal, card lift + glow.   -->
+    <!-- =============================================================== -->
+    <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+      <!-- Decorative poly shard background -->
+      <div class="proj-bg-poly" aria-hidden="true">
+        <span class="proj-poly-shard pp-1"></span>
+        <span class="proj-poly-shard pp-2"></span>
+        <span class="proj-poly-shard pp-3"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Works</span>
+          <h2 id="projects-title" class="section-title">Projects</h2>
+          <p class="section-subtitle">Embedded innovations and IoT solutions built with Arduino, sensors, and real-world automation logic</p>
+        </div>
+
+        <!-- ── PROJECT THUMBNAIL GRID ───────────────────────────────── -->
+        <!-- Each .proj-card has data-project="[id]" which the JS uses   -->
+        <!-- to open the matching modal: #project-modal-[id]             -->
+        <div class="proj-grid" role="list">
+
+          <!-- ────────────────────────────────────────────────────────── -->
+          <!-- PROJECT 1: Cold Storage Unit                               -->
+          <!-- thumbnail: cold_storage_thumb.jpg                          -->
+          <!-- clicking the card opens #project-modal-cold-storage        -->
+          <!-- ────────────────────────────────────────────────────────── -->
+          <article
+            class="proj-card"
+            role="listitem"
+            data-project="cold-storage"
+            tabindex="0"
+            aria-label="Cold Storage Unit — click to view project details"
+          >
+            <!-- Thumbnail image — zooms on hover via CSS transform -->
+            <div class="proj-thumb-wrap">
+              <img
+                src="cold_storage_thumb.jpg"
+                alt="Cold Storage Unit project — Arduino connected to a refrigeration box with temperature sensors and fan"
+                class="proj-thumb-img"
+                loading="lazy"
+              >
+
+              <!-- Overlay that slides up on hover, revealing a "View Details" CTA -->
+              <div class="proj-thumb-overlay" aria-hidden="true">
+                <span class="proj-overlay-icon">
+                  <!-- Expand / detail icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
+                </span>
+                <span class="proj-overlay-label">View Details</span>
+              </div>
+
+              <!-- Category badge pinned to the thumbnail -->
+              <span class="proj-category-badge">IoT &amp; Automation</span>
+            </div>
+
+            <!-- Card body: title, short description, tech chips -->
+            <div class="proj-card-body">
+              <h3 class="proj-card-title">Cold Storage Unit</h3>
+              <p class="proj-card-desc">
+                An Arduino-based automated cooling system that monitors temperature and controls a fan to maintain suitable conditions for storing vegetables and reduce spoilage.
+              </p>
+
+              <!-- Tech stack chips — summarise the tools used -->
+              <div class="proj-tech-row">
+                <span class="proj-tech-chip">Arduino IDE</span>
+                <span class="proj-tech-chip">C / C++</span>
+                <span class="proj-tech-chip">Temperature Sensor</span>
+                <span class="proj-tech-chip">Relay Module</span>
+              </div>
+
+              <!-- Card footer: "Details" button + GitHub link -->
+              <div class="proj-card-footer">
+                <!-- This button triggers the modal for this project -->
+                <button
+                  class="proj-details-btn"
+                  data-project="cold-storage"
+                  aria-haspopup="dialog"
+                  aria-controls="project-modal-cold-storage"
+                  type="button"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                  Project Details
+                </button>
+                <!-- External GitHub link — opens in new tab -->
+                <a
+                  href="https://github.com/Soujanya-MN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="proj-github-btn"
+                  aria-label="View Cold Storage Unit on GitHub"
+                  title="View source on GitHub"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ────────────────────────────────────────────────────────── -->
+          <!-- PROJECT 2: Smart Irrigation System                         -->
+          <!-- thumbnail: irrigation_thumb.jpg                            -->
+          <!-- clicking the card opens #project-modal-irrigation          -->
+          <!-- ────────────────────────────────────────────────────────── -->
+          <article
+            class="proj-card"
+            role="listitem"
+            data-project="irrigation"
+            tabindex="0"
+            aria-label="Smart Irrigation System — click to view project details"
+          >
+            <div class="proj-thumb-wrap">
+              <img
+                src="irrigation_thumb.jpg"
+                alt="IoT Smart Irrigation System — Arduino with soil moisture sensors and automated water pump"
+                class="proj-thumb-img"
+                loading="lazy"
+              >
+              <div class="proj-thumb-overlay" aria-hidden="true">
+                <span class="proj-overlay-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
+                </span>
+                <span class="proj-overlay-label">View Details</span>
+              </div>
+              <span class="proj-category-badge proj-badge-green">Smart Agriculture</span>
+            </div>
+
+            <div class="proj-card-body">
+              <h3 class="proj-card-title">Smart Irrigation System</h3>
+              <p class="proj-card-desc">
+                An IoT-based irrigation system that monitors soil moisture and automates water supply according to the moisture requirement of plants.
+              </p>
+
+              <div class="proj-tech-row">
+                <span class="proj-tech-chip">IoT</span>
+                <span class="proj-tech-chip">Arduino</span>
+                <span class="proj-tech-chip">Soil Moisture Sensor</span>
+                <span class="proj-tech-chip">Water Pump</span>
+              </div>
+
+              <div class="proj-card-footer">
+                <button
+                  class="proj-details-btn"
+                  data-project="irrigation"
+                  aria-haspopup="dialog"
+                  aria-controls="project-modal-irrigation"
+                  type="button"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                  Project Details
+                </button>
+                <a
+                  href="https://github.com/Soujanya-MN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="proj-github-btn"
+                  aria-label="View Smart Irrigation System on GitHub"
+                  title="View source on GitHub"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.proj-grid -->
+      </div><!-- /.container -->
+    </section>
+    <!-- END PROJECTS SECTION -->
+
+
+    <!-- ================================================================= -->
+    <!-- PROJECT DETAIL MODALS                                              -->
+    <!-- Each modal ID matches the data-project value on the card.          -->
+    <!-- JS opens the modal when user clicks a card or its "Details" button.-->
+    <!-- Closed via Escape key, close button, or clicking the backdrop.     -->
+    <!-- ================================================================= -->
+
+    <!-- ── MODAL 1: Cold Storage Unit ───────────────────────────────────── -->
+    <!-- Linked from: .proj-card[data-project="cold-storage"]               -->
+    <div
+      id="project-modal-cold-storage"
+      class="proj-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title-cold-storage"
+      hidden
+    >
+      <div class="proj-modal-backdrop" data-close-modal aria-hidden="true"></div>
+
+      <div class="proj-modal-panel">
+        <!-- Close button (top-right) -->
+        <button class="proj-modal-close" data-close-modal type="button" aria-label="Close Cold Storage Unit project details">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+
+        <!-- Modal header image — full-width thumbnail at top of modal -->
+        <div class="proj-modal-thumb">
+          <img
+            src="cold_storage_thumb.jpg"
+            alt="Cold Storage Unit project thumbnail"
+            class="proj-modal-thumb-img"
+            loading="lazy"
+          >
+          <!-- Gradient overlay for readable heading -->
+          <div class="proj-modal-thumb-overlay" aria-hidden="true"></div>
+          <div class="proj-modal-thumb-heading">
+            <span class="proj-modal-category">IoT &amp; Automation</span>
+            <h2 id="modal-title-cold-storage" class="proj-modal-title">Cold Storage Unit</h2>
+          </div>
+        </div>
+
+        <!-- Modal body: detailed description + highlights -->
+        <div class="proj-modal-body">
+
+          <!-- Project overview paragraph -->
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              Overview
+            </h3>
+            <p class="proj-modal-text">
+              An <strong>Arduino-based automated cooling system</strong> designed to monitor ambient temperature and dynamically control a cooling fan to maintain optimal preservation conditions for vegetables, significantly reducing spoilage in commercial and home storage environments.
+            </p>
+            <p class="proj-modal-text">
+              The system continuously reads temperature data from a sensor, compares it against configurable thresholds stored in firmware, and switches the fan on or off via a relay module — creating a closed-loop automated cooling cycle without any human intervention.
+            </p>
+          </div>
+
+          <!-- Key features list -->
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              Key Features
+            </h3>
+            <ul class="proj-modal-feature-list">
+              <li>Real-time temperature monitoring using a digital temperature sensor (DS18B20/DHT series)</li>
+              <li>Relay-controlled DC fan activation based on programmable upper/lower temperature thresholds</li>
+              <li>Firmware written in C/C++ using Arduino IDE with configurable safety thresholds</li>
+              <li>Compact embedded design — no external power or cloud dependency required</li>
+              <li>Reduces post-harvest vegetable spoilage through consistent automated cooling</li>
+            </ul>
+          </div>
+
+          <!-- Tech stack displayed as chips -->
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Technologies Used
+            </h3>
+            <div class="proj-modal-tech-row">
+              <span class="proj-tech-chip">Arduino UNO</span>
+              <span class="proj-tech-chip">C / C++</span>
+              <span class="proj-tech-chip">Arduino IDE</span>
+              <span class="proj-tech-chip">Temperature Sensor</span>
+              <span class="proj-tech-chip">Relay Module</span>
+              <span class="proj-tech-chip">DC Cooling Fan</span>
+              <span class="proj-tech-chip">Embedded Systems</span>
+            </div>
+          </div>
+
+          <!-- CTA buttons -->
+          <div class="proj-modal-cta-row">
+            <a href="https://github.com/Soujanya-MN" target="_blank" rel="noopener noreferrer" class="btn btn-primary proj-modal-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              View on GitHub
+            </a>
+            <button class="btn btn-ghost proj-modal-btn" data-close-modal type="button">Close</button>
+          </div>
+        </div><!-- /.proj-modal-body -->
+      </div><!-- /.proj-modal-panel -->
+    </div><!-- /#project-modal-cold-storage -->
+
+
+    <!-- ── MODAL 2: Smart Irrigation System ──────────────────────────────── -->
+    <!-- Linked from: .proj-card[data-project="irrigation"]                  -->
+    <div
+      id="project-modal-irrigation"
+      class="proj-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title-irrigation"
+      hidden
+    >
+      <div class="proj-modal-backdrop" data-close-modal aria-hidden="true"></div>
+
+      <div class="proj-modal-panel">
+        <button class="proj-modal-close" data-close-modal type="button" aria-label="Close Smart Irrigation System project details">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+
+        <div class="proj-modal-thumb">
+          <img
+            src="irrigation_thumb.jpg"
+            alt="Smart Irrigation System project thumbnail"
+            class="proj-modal-thumb-img"
+            loading="lazy"
+          >
+          <div class="proj-modal-thumb-overlay" aria-hidden="true"></div>
+          <div class="proj-modal-thumb-heading">
+            <span class="proj-modal-category proj-modal-cat-green">Smart Agriculture</span>
+            <h2 id="modal-title-irrigation" class="proj-modal-title">Smart Irrigation System</h2>
+          </div>
+        </div>
+
+        <div class="proj-modal-body">
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              Overview
+            </h3>
+            <p class="proj-modal-text">
+              An <strong>IoT-based automated irrigation system</strong> that continuously monitors soil moisture levels and automatically activates or deactivates a water pump to deliver the precise amount of water each plant needs — preventing both under-watering and wasteful over-watering.
+            </p>
+            <p class="proj-modal-text">
+              The system uses capacitive soil moisture sensors buried in the plant medium, reading analog voltage levels that correspond to moisture percentage. The Arduino microcontroller evaluates these readings against defined dry/wet thresholds and controls a relay-driven water pump accordingly.
+            </p>
+          </div>
+
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              Key Features
+            </h3>
+            <ul class="proj-modal-feature-list">
+              <li>Real-time soil moisture sensing with capacitive moisture sensors for accurate, corrosion-resistant readings</li>
+              <li>Automatic pump activation when moisture drops below a configurable dry threshold</li>
+              <li>Automatic pump cut-off once optimal moisture level is reached, preventing root rot from over-watering</li>
+              <li>Low-power design — Arduino operates in idle mode between sensor polling cycles</li>
+              <li>Fully offline embedded system — no Wi-Fi or cloud services required for autonomous operation</li>
+              <li>Scalable to multiple sensor zones for larger garden or agriculture setups</li>
+            </ul>
+          </div>
+
+          <div class="proj-modal-section">
+            <h3 class="proj-modal-section-title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Technologies Used
+            </h3>
+            <div class="proj-modal-tech-row">
+              <span class="proj-tech-chip">Arduino UNO</span>
+              <span class="proj-tech-chip">C / C++</span>
+              <span class="proj-tech-chip">Arduino IDE</span>
+              <span class="proj-tech-chip">Soil Moisture Sensor</span>
+              <span class="proj-tech-chip">Relay Module</span>
+              <span class="proj-tech-chip">DC Water Pump</span>
+              <span class="proj-tech-chip">IoT</span>
+              <span class="proj-tech-chip">Embedded Systems</span>
+            </div>
+          </div>
+
+          <div class="proj-modal-cta-row">
+            <a href="https://github.com/Soujanya-MN" target="_blank" rel="noopener noreferrer" class="btn btn-primary proj-modal-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              View on GitHub
+            </a>
+            <button class="btn btn-ghost proj-modal-btn" data-close-modal type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- /#project-modal-irrigation -->
+
+
+    <!-- ================================================================= -->
+    <!-- FULL-SCREEN RESUME PDF VIEWER MODAL                               -->
+    <!-- Opens when "View Resume" is clicked. Clean, full-screen viewport   -->
+    <!-- with embedded PDF, direct download, and open-in-tab options.      -->
+    <!-- ================================================================= -->
+    <div
+      id="resume-modal"
+      class="resume-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="resume-modal-title"
+      hidden
+    >
+      <div class="resume-modal-backdrop" data-close-resume aria-hidden="true"></div>
+
+      <div class="resume-modal-container">
+        <!-- Modal Top Bar -->
+        <div class="resume-modal-header">
+          <div class="resume-modal-title-wrap">
+            <div class="resume-modal-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+            </div>
+            <div class="resume-modal-titles">
+              <h2 id="resume-modal-title" class="resume-modal-title">Soujanya M.N â€” Resume</h2>
+              <span class="resume-modal-sub">B.E. in Artificial Intelligence &amp; Machine Learning Â· AIT Chikkamagaluru</span>
+            </div>
+          </div>
+
+          <div class="resume-modal-actions">
+            <!-- Direct Download Inside Viewer -->
+            <a
+              href="Soujanya_MN_Resume_Final.pdf"
+              download="Soujanya_MN_Resume.pdf"
+              class="btn btn-resume-download-sm"
+              title="Download Resume PDF directly"
+              aria-label="Download Resume PDF"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download PDF</span>
+            </a>
+
+            <!-- Open in New Tab -->
+            <a
+              href="Soujanya_MN_Resume_Final.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-resume-tab-sm"
+              title="Open PDF in new tab"
+              aria-label="Open Resume in new browser tab"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Full View</span>
+            </a>
+
+            <!-- Close Modal Button -->
+            <button
+              type="button"
+              id="resume-modal-close"
+              class="resume-close-btn"
+              data-close-resume
+              aria-label="Close Resume Viewer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Embedded PDF Viewer Body -->
+        <div class="resume-modal-body">
+          <iframe
+            src="Soujanya_MN_Resume_Final.pdf#toolbar=1&amp;navpanes=0&amp;scrollbar=1"
+            class="resume-pdf-frame"
+            title="Soujanya M N Resume"
+          >
+            <p>Your browser does not support embedded PDF frames. <a href="Soujanya_MN_Resume_Final.pdf" target="_blank">Click here to open the resume PDF directly.</a></p>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <!-- END FULL-SCREEN RESUME PDF VIEWER MODAL -->
+
+
+
+    <!-- =============================================================== -->
+    <!-- 6. ACHIEVEMENTS & CERTIFICATIONS PLACEHOLDER                    -->
+    <!-- Badges, Bootcamps, Recognitions, and Credentials                -->
+    <!-- =============================================================== -->
+    <section id="achievements" class="section achievements-section" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 id="achievements-title" class="section-title">Certifications & Accolades</h2>
+          <p class="section-subtitle">Verified programs and technical milestones</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement Card 1 -->
+          <article class="achievement-card">
+            <div class="cert-image-container">
+              <img 
+                src="WhatsApp Image 2026-10-07 at 10.15.49 AM.jpeg" 
+                alt="Certificate of Python Programming - Dept of AI & ML, AIT"
+                class="cert-thumbnail"
+                loading="lazy"
+              >
+            </div>
+            <div class="cert-info">
+              <span class="cert-date">March 2026</span>
+              <h3 class="cert-name">Python Programming SDP Certification</h3>
+              <p class="cert-issuer">Department of AI & ML, Adichunchanagiri Institute of Technology</p>
+              <p class="cert-detail">Successfully completed comprehensive Student Development Program covering core Python development, data handling, and problem solving.</p>
+            </div>
+          </article>
+
+          <!-- Achievement Card 2 (Academic Distinction) -->
+          <article class="achievement-card academic-card">
+            <div class="cert-badge-icon">🎓</div>
+            <div class="cert-info">
+              <span class="cert-date">2022 – 2026</span>
+              <h3 class="cert-name">Academic Excellence in AI & Machine Learning</h3>
+              <p class="cert-issuer">AIT Chikkamagaluru (Affiliated to VTU)</p>
+              <p class="cert-detail">Maintained a strong cumulative grade point average of <strong>8.46 CGPA</strong> across foundational and specialized engineering courses.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- END ACHIEVEMENTS SECTION PLACEHOLDER -->
+
+
+    <!-- =============================================================== -->
+    <!-- 7. AI PERSONA CHAT SECTION                                      -->
+    <!-- Interactive AI version of Soujanya M.N for visitor interaction. -->
+    <!-- Chat window interface with message log, input, and typing state.-->
+    <!-- Includes API integration placeholders for OpenAI / Gemini.      -->
+    <!-- =============================================================== -->
+    <section id="chat" class="section chat-section" aria-labelledby="chat-title">
+      <!-- Decorative low-poly background shards -->
+      <div class="chat-bg-poly" aria-hidden="true">
+        <span class="chat-poly-shard cp-1"></span>
+        <span class="chat-poly-shard cp-2"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">AI Persona</span>
+          <h2 id="chat-title" class="section-title">Chat with Soujanya AI</h2>
+          <p class="section-subtitle">Interact with an AI avatar of Soujanya M.N to explore her projects, technical skills, education, or collaboration opportunities in real time.</p>
+        </div>
+
+        <div class="chat-window-card" role="region" aria-label="Interactive AI Chat Window">
+          <!-- Low-Poly Facet Corner Accents -->
+          <span class="chat-corner-facet c-tl" aria-hidden="true"></span>
+          <span class="chat-corner-facet c-tr" aria-hidden="true"></span>
+          <span class="chat-corner-facet c-bl" aria-hidden="true"></span>
+          <span class="chat-corner-facet c-br" aria-hidden="true"></span>
+
+          <!-- Chat Window Header Bar -->
+          <div class="chat-window-header">
+            <div class="chat-header-identity">
+              <!-- AI Low-Poly Avatar -->
+              <div class="ai-header-avatar" aria-hidden="true">
+                <span>AI</span>
+                <span class="avatar-ring"></span>
+              </div>
+              <div class="ai-header-meta">
+                <div class="ai-name-row">
+                  <h3 class="ai-header-name">Soujanya AI</h3>
+                  <span class="ai-badge-pill">Virtual Avatar</span>
+                </div>
+                <p class="ai-header-status">
+                  <span class="status-live-dot" aria-hidden="true"></span>
+                  <span>Online · Ask me about projects, skills &amp; background</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Header Controls -->
+            <div class="chat-header-actions">
+              <span class="chat-mode-tag" title="Client-side AI simulation ready for API connection">
+                <span class="mode-icon">⚡</span> Simulation Mode
+              </span>
+              <button
+                type="button"
+                id="chat-clear-btn"
+                class="chat-action-btn"
+                title="Restart conversation"
+                aria-label="Restart conversation"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+                <span>Reset</span>
+              </button>
+            </div>
+          </div><!-- /.chat-window-header -->
+
+          <!-- Quick Suggestion Prompt Chips -->
+          <div class="chat-quick-prompts" aria-label="Suggested conversation questions">
+            <span class="prompts-label">Suggestions:</span>
+            <button type="button" class="quick-prompt-btn" data-prompt="What projects have you worked on?">
+              🚀 Featured Projects
+            </button>
+            <button type="button" class="quick-prompt-btn" data-prompt="Tell me about your Cold Storage Unit project.">
+              ❄️ Cold Storage Unit
+            </button>
+            <button type="button" class="quick-prompt-btn" data-prompt="What technologies and programming languages do you know?">
+              💻 Core Skills
+            </button>
+            <button type="button" class="quick-prompt-btn" data-prompt="Where are you pursuing your engineering degree?">
+              🎓 Education &amp; AIT
+            </button>
+            <button type="button" class="quick-prompt-btn" data-prompt="How can I contact you or offer a role?">
+              📬 Contact &amp; Roles
+            </button>
+          </div>
+
+          <!-- Chat Messages Display Area -->
+          <div
+            id="chat-messages-display"
+            class="chat-messages-display"
+            role="log"
+            aria-live="polite"
+            aria-relevant="additions text"
+            tabindex="0"
+          >
+            <!-- Initial Greeting from Soujanya AI -->
+            <div class="chat-msg-row ai-msg-row">
+              <div class="msg-avatar ai-avatar-icon" aria-hidden="true">AI</div>
+              <div class="msg-bubble ai-bubble">
+                <div class="msg-sender-name">Soujanya AI</div>
+                <div class="msg-text">
+                  <p>👋 Hello! I'm the AI digital avatar of <strong>Soujanya M N</strong>, an engineering undergraduate specializing in <strong>Artificial Intelligence &amp; Machine Learning</strong> at Adichunchanagiri Institute of Technology.</p>
+                  <p>You can ask me about my <strong>IoT &amp; Arduino projects</strong>, <strong>programming competencies (Python, C, Java, DSA)</strong>, <strong>education milestones</strong>, or how to get in touch. How can I help you today?</p>
+                </div>
+                <span class="msg-timestamp">Just now</span>
+              </div>
+            </div>
+          </div><!-- /#chat-messages-display -->
+
+          <!-- Typing Indicator (Animated Dots) -->
+          <div id="chat-typing-indicator" class="chat-typing-row" aria-hidden="true" style="display: none;">
+            <div class="msg-avatar ai-avatar-icon">AI</div>
+            <div class="typing-bubble">
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-label">Soujanya AI is thinking...</span>
+            </div>
+          </div>
+
+          <!-- Chat Input Bar -->
+          <form id="ai-chat-form" class="chat-input-bar">
+            <label for="ai-chat-input" class="sr-only">Type a message for Soujanya AI</label>
+            <div class="input-field-wrap">
+              <span class="input-decor-symbol" aria-hidden="true">&gt;</span>
+              <input
+                type="text"
+                id="ai-chat-input"
+                class="ai-chat-input"
+                placeholder="Ask Soujanya AI anything (e.g., projects, skills, education)..."
+                autocomplete="off"
+                maxlength="300"
+                required
+              >
+            </div>
+            <button type="submit" id="ai-chat-send-btn" class="btn btn-primary ai-send-btn" aria-label="Send message">
+              <span>Send</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+
+          <!-- Chat Footer Info / API Readiness Note -->
+          <div class="chat-window-footer">
+            <span class="footer-note">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              Simulated AI Persona · Backend architecture prepared for OpenAI / Gemini API integration
+            </span>
+          </div>
+        </div><!-- /.chat-window-card -->
+      </div><!-- /.container -->
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- 8. CONTACT SECTION PLACEHOLDER                                  -->
+    <!-- Direct contact channels, reach-out form, & social availability -->
+    <!-- =============================================================== -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 id="contact-title" class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Have a project, role opening, or question? Send a message!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details / Info Cards -->
+          <aside class="contact-info-aside">
+            <h3 class="aside-title">Contact Information</h3>
+            <p class="aside-desc">Feel free to reach out via email or phone. I'm always open to discussing new engineering roles or collaboration opportunities.</p>
+
+            <div class="contact-methods">
+              <a href="mailto:mnsoujanya9@gmail.com" class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-item-text">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-val">mnsoujanya9@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918792528689" class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-item-text">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-val">+91 8792528689</span>
+                </div>
+              </a>
+
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-item-text">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-val">Karnataka, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Professional Profiles Placeholder -->
+            <div class="social-profiles-box">
+              <h4 class="profiles-heading">Profiles</h4>
+              <div class="profiles-buttons">
+                <a href="https://linkedin.com/in/soujanya-m-n-b0a409441" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                  LinkedIn
+                </a>
+                <a href="https://github.com/Soujanya-MN" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Contact Form Placeholder -->
+          <form id="contact-form" class="contact-form" action="#" method="POST">
+            <h3 class="form-title">Send a Direct Message</h3>
+
+            <div class="form-group">
+              <label for="user-name" class="form-label">Full Name</label>
+              <input type="text" id="user-name" name="name" class="form-input" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="user-email" class="form-label">Email Address</label>
+              <input type="email" id="user-email" name="email" class="form-input" placeholder="name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="user-subject" class="form-label">Subject</label>
+              <input type="text" id="user-subject" name="subject" class="form-input" placeholder="Role Inquiry / Project Collaboration" required>
+            </div>
+
+            <div class="form-group">
+              <label for="user-message" class="form-label">Message</label>
+              <textarea id="user-message" name="message" class="form-textarea" rows="4" placeholder="Hello Soujanya, I would like to discuss..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT SECTION PLACEHOLDER -->
+
+  </main>
+  <!-- END MAIN CONTENT CONTAINER -->
+
+
+  <!-- ================================================================= -->
+  <!-- FOOTER SECTION                                                    -->
+  <!-- ================================================================= -->
+  <footer id="footer" class="site-footer">
+    <div class="container footer-container">
+      
+      <!-- Footer Top: Brand & Tagline -->
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo" aria-label="Soujanya M.N - Home">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-text">Soujanya<span class="accent-dot">.</span>dev</span>
+        </a>
+        <p class="footer-tagline">Building thoughtful software &amp; intelligent solutions in AI, Machine Learning, and IoT.</p>
+      </div>
+
+      <!-- Quick Navigation in Footer -->
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#video-intro">Spotlight</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#chat">Chat</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Pixel Art Social Media Hub (Evenly spaced, 8-bit pixel art aesthetic, hover effects, accessibility) -->
+      <div class="footer-pixel-socials" aria-label="Social media and professional profiles">
+        <span class="pixel-social-title" aria-hidden="true">Connect // 8-Bit Pixel Hub</span>
+        
+        <ul class="pixel-social-list" role="list">
+          <!-- 1. LinkedIn -->
+          <li role="listitem">
+            <a
+              href="https://www.linkedin.com/in/soujanya-m-n-b0a409441?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pixel-social-btn pixel-btn-linkedin"
+              aria-label="LinkedIn profile of Soujanya M N (opens in a new tab)"
+              title="LinkedIn: Soujanya M N"
+            >
+              <svg class="pixel-icon" viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true">
+                <!-- 8-Bit Pixel Art LinkedIn "in" Monogram -->
+                <rect x="3" y="3" width="2" height="2"/>
+                <rect x="3" y="6" width="2" height="7"/>
+                <rect x="7" y="6" width="2" height="7"/>
+                <rect x="9" y="6" width="3" height="2"/>
+                <rect x="11" y="7" width="2" height="6"/>
+              </svg>
+              <span class="sr-only">LinkedIn Profile</span>
+            </a>
+          </li>
+
+          <!-- 2. GitHub -->
+          <li role="listitem">
+            <a
+              href="https://github.com/Soujanya-MN"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pixel-social-btn pixel-btn-github"
+              aria-label="GitHub profile of Soujanya M N (opens in a new tab)"
+              title="GitHub: Soujanya-MN"
+            >
+              <svg class="pixel-icon" viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true">
+                <!-- 8-Bit Pixel Art GitHub Invertocat -->
+                <rect x="2" y="2" width="2" height="2"/>
+                <rect x="12" y="2" width="2" height="2"/>
+                <rect x="4" y="3" width="8" height="1"/>
+                <rect x="1" y="4" width="14" height="6"/>
+                <rect x="2" y="10" width="12" height="3"/>
+                <rect x="4" y="13" width="8" height="2"/>
+                <!-- Eye cutouts -->
+                <rect x="4" y="6" width="2" height="2" class="pixel-cutout"/>
+                <rect x="10" y="6" width="2" height="2" class="pixel-cutout"/>
+                <!-- Mouth cutout -->
+                <rect x="7" y="9" width="2" height="1" class="pixel-cutout"/>
+              </svg>
+              <span class="sr-only">GitHub Profile</span>
+            </a>
+          </li>
+
+          <!-- 3. Email -->
+          <li role="listitem">
+            <a
+              href="mailto:mnsoujanya9@gmail.com"
+              class="pixel-social-btn pixel-btn-email"
+              aria-label="Send an email to Soujanya M N (opens email client)"
+              title="Email: mnsoujanya9@gmail.com"
+            >
+              <svg class="pixel-icon" viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true">
+                <!-- 8-Bit Pixel Art Envelope -->
+                <rect x="1" y="3" width="14" height="10"/>
+                <rect x="3" y="5" width="10" height="6" class="pixel-cutout"/>
+                <rect x="2" y="4" width="2" height="2"/>
+                <rect x="12" y="4" width="2" height="2"/>
+                <rect x="4" y="6" width="2" height="2"/>
+                <rect x="10" y="6" width="2" height="2"/>
+                <rect x="6" y="8" width="4" height="2"/>
+              </svg>
+              <span class="sr-only">Email Soujanya</span>
+            </a>
+          </li>
+
+          <!-- 4. Phone -->
+          <li role="listitem">
+            <a
+              href="tel:+918792528689"
+              class="pixel-social-btn pixel-btn-phone"
+              aria-label="Call Soujanya M N at +91 8792528689"
+              title="Phone: +91 8792528689"
+            >
+              <svg class="pixel-icon" viewBox="0 0 16 16" width="24" height="24" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true">
+                <!-- 8-Bit Pixel Art Phone Handset -->
+                <rect x="3" y="2" width="4" height="3"/>
+                <rect x="5" y="5" width="3" height="6"/>
+                <rect x="3" y="11" width="4" height="3"/>
+                <rect x="7" y="12" width="4" height="2"/>
+              </svg>
+              <span class="sr-only">Phone Call</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Footer Bottom: Copyright & Back to Top -->
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Soujanya M.N. All rights reserved.
+        </p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          Back to top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER SECTION -->
+
+  <!-- JavaScript for Night Mode Toggle & Interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>
